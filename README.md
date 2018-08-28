@@ -6,16 +6,16 @@ React Navigation is born from the React Native community's need for an extensibl
 
 ## Installation
 
-Since the library is a JS-based solution, to install the latest version of react-navigation you only need to run:
+Since the library is a JS-based solution, to install the latest version of zy-react-navigation you only need to run:
 
 ```bash
-yarn add react-navigation
+yarn add zy-react-navigation
 ```
 
 or
 
 ```bash
-npm install --save react-navigation
+npm install --save zy-react-navigation
 ```
 
 ## Documentation
@@ -41,15 +41,15 @@ See [the help page](https://reactnavigation.org/en/help.html).
 
 This library is a community effort: it can only be great if we all help out in one way or another! If you feel like you aren't experienced enough using React Navigation to contribute, you can still make an impact by:
 
-* Responding to one of the open [issues](https://github.com/react-community/react-navigation/issues). Even if you can't resolve or fully answer a question, asking for more information or clarity on an issue is extremely beneficial for someone to come after you to resolve the issue.
-* Creating public example repositories or [Snacks](https://snack.expo.io/) of navigation problems you have solved and sharing the links in [Community Resources](https://github.com/react-navigation/react-navigation/blob/master/COMMUNITY_RESOURCES.md).
+* Responding to one of the open [issues](https://github.com/ZY-Market/react-navigation/issues). Even if you can't resolve or fully answer a question, asking for more information or clarity on an issue is extremely beneficial for someone to come after you to resolve the issue.
+* Creating public example repositories or [Snacks](https://snack.expo.io/) of navigation problems you have solved and sharing the links in [Community Resources](https://github.com/ZY-Market/react-navigation/blob/master/COMMUNITY_RESOURCES.md).
 * Answering questions on [Stack Overflow](https://stackoverflow.com/search?q=react-navigation).
 * Answering questions in our [Reactiflux](https://www.reactiflux.com/) channel.
-* Providing feedback on the open [PRs](https://github.com/react-navigation/react-navigation/pulls).
-* Providing feedback on the open [RFCs](https://github.com/react-navigation/rfcs).
-* Improving the [website](https://github.com/react-navigation/react-navigation.github.io).
+* Providing feedback on the open [PRs](https://github.com/ZY-Market/react-navigation/pulls).
+* Providing feedback on the open [RFCs](https://github.com/ZY-Market/rfcs).
+* Improving the [website](https://github.com/ZY-Market/react-navigation.github.io).
 
-If you would like to submit a pull request, please follow the [Contributors guide](https://reactnavigation.org/docs/contributing.html) to find out how. If you don't know where to start, check the ones with the label [`good first issue`](https://github.com/react-community/react-navigation/labels/good%20first%20issue) - even [fixing a typo in the documentation](https://github.com/react-community/react-navigation/pull/2727) is a worthy contribution!
+If you would like to submit a pull request, please follow the [Contributors guide](https://reactnavigation.org/docs/contributing.html) to find out how. If you don't know where to start, check the ones with the label [`good first issue`](https://github.com/ZY-Market/react-navigation/labels/good%20first%20issue) - even [fixing a typo in the documentation](https://github.com/ZY-Market/react-navigation/pull/2727) is a worthy contribution!
 
 #### Is this the only library available for navigation?
 
@@ -57,12 +57,12 @@ Certainly not! There other libraries - which, depending on your needs, can be be
 
 #### Can I use this library for web?
 
-Web support was [not a priority for the 1.0 release](https://github.com/react-community/react-navigation/issues/2585#issuecomment-330338793), but the architecture of this library allows for it (and it has worked in the past). If you would like to lead this charge, please reach out with your ideas for how to move forward on the [RFCs repository](https://github.com/react-navigation/rfcs) and we would be happy to discuss.
+Web support was [not a priority for the 1.0 release](https://github.com/ZY-Market/react-navigation/issues/2585#issuecomment-330338793), but the architecture of this library allows for it (and it has worked in the past). If you would like to lead this charge, please reach out with your ideas for how to move forward on the [RFCs repository](https://github.com/ZY-Market/rfcs) and we would be happy to discuss.
 
 ## Code of conduct
 
-This library has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://github.com/react-community/react-navigation/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+This library has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://github.com/ZY-Market/react-navigation/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## License
 
-React-navigation is licensed under the [BSD 2-clause "Simplified" License](https://github.com/react-community/react-navigation/blob/master/LICENSE).
+React-navigation is licensed under the [BSD 2-clause "Simplified" License](https://github.com/ZY-Market/react-navigation/blob/master/LICENSE).

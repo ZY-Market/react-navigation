@@ -4,6 +4,7 @@ import NavigationActions from './NavigationActions';
 import invariant from './utils/invariant';
 
 export default function(navigation) {
+  let debounce = true;
   return {
     ...navigation,
     goBack: key => {
@@ -21,23 +22,29 @@ export default function(navigation) {
     },
     navigate: (navigateTo, params, action) => {
       if (typeof navigateTo === 'string') {
-        return navigation.dispatch(
-          NavigationActions.navigate({ routeName: navigateTo, params, action })
-        );
+        if (debounce) {
+          debounce = false;
+          setTimeout(
+            () => {debounce = true;}, 2000);
+          return navigation.dispatch(
+            NavigationActions.navigate({ routeName: navigateTo, params, action })
+          );
+
+          invariant(
+            typeof navigateTo === 'object',
+            'Must navigateTo an object or a string'
+          );
+          invariant(
+            params == null,
+            'Params must not be provided to .navigate() when specifying an object'
+          );
+          invariant(
+            action == null,
+            'Child action must not be provided to .navigate() when specifying an object'
+          );
+          return navigation.dispatch(NavigationActions.navigate(navigateTo));
+        }
       }
-      invariant(
-        typeof navigateTo === 'object',
-        'Must navigateTo an object or a string'
-      );
-      invariant(
-        params == null,
-        'Params must not be provided to .navigate() when specifying an object'
-      );
-      invariant(
-        action == null,
-        'Child action must not be provided to .navigate() when specifying an object'
-      );
-      return navigation.dispatch(NavigationActions.navigate(navigateTo));
     },
     pop: (n, params) =>
       navigation.dispatch(
